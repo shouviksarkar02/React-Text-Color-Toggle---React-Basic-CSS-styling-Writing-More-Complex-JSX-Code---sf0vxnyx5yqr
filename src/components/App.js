@@ -9,7 +9,7 @@ class App extends React.Component{
   }
   changeClassStyle=()=>{
     if(this.state.classStyle === "redColor")
-    this.setState({classStyle: "bluecolor"})
+    this.setState({classStyle:"bluecolor"})
     else 
     this.setState({classStyle:"redColor"})
   }
