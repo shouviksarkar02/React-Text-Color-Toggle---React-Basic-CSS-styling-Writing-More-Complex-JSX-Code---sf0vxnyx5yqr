@@ -1,15 +1,5 @@
 import React, {useEffect, useState} from 'react'
 import '../styles/App.css';
-
-//const App = () => {
-//code here 
-  //return (
-    //<div id="main">
-      //<p className={} >Newton School</p>
-      //<button id='button' onClick={}>Change Style</button>
-    //</div>
-  //)
-//}
 class App extends React.Component{
   constructor(){
     super()
@@ -19,9 +9,9 @@ class App extends React.Component{
   }
   changeClassStyle=()=>{
     if(this.state.classStyle === "redColor")
-    this.setState({classStyle:"blueColour"})
+    this.setState({classStyle: "bluecolor"})
     else 
-    this.setState({classStyle:"redColour"})
+    this.setState({classStyle:"redColor"})
   }
 
 
